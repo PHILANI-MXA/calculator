@@ -1,0 +1,16 @@
+p:nth::last-child(2) {
+    background-color: aqua;
+}
+
+p::first-line {
+    background-color: blue;
+}
+
+p::first-letter {
+    font-size: 200px;
+    padding-right: 2px;
+}
+
+#lorem::before {
+    content: url(/20200210154109-GettyImages-166004494.jpeg);
+}
